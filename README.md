@@ -59,9 +59,6 @@ O seminário deve conter:
 
 ## Resposta
 
-p
-Distribuído por Tiny
-
 - **Arquivos permitidos:** JPG, JPEG, PNG, GIF, TXT, PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, RAR, ZIP, 7Z
 - **Quantidade máxima de arquivos:** 1
 - **Tamanho máximo por arquivo:** 150mb
