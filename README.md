@@ -66,5 +66,3 @@ Distribuído por Tiny
 - **Quantidade máxima de arquivos:** 1
 - **Tamanho máximo por arquivo:** 150mb
 ```eof
-
-O arquivo acima contém exatamento o mesmo texto fornecido, mantendo a integridade de todas as pontuações e espaçamentos originais (incluindo os espaços da lista numerada), mas agora bem estruturado usando marcação Markdown para facilitar a leitura.
