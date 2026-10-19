@@ -55,7 +55,7 @@
 
 - O `script.sqlite` na raiz é uma cópia antiga; o que o dashboard usa é `my-dashboard/sources/data_evidence_analitics/script.sqlite`.
 - O `setup-database.ps1` ainda não foi totalmente testado (precisa de admin na execução). Se der erro no restore (nomes dos arquivos do backup), comunicar a falha + erro.
-- Os logs (`dev.log`, `npm-*.log`, `sources.log`) e `.evidence/` não vão pro git (estão no `.gitignore`). | Deixei rastreado no git por agora só para mostrar um exemplar.
+- Os logs (`dev.log`, `npm-*.log`, `sources.log`) e `.evidence/` não vão pro git (estão no `.gitignore`).
 
 ## Planejamento a partes
 
