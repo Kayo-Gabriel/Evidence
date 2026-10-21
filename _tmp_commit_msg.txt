@@ -1,0 +1,6 @@
+docs: guia atualizado — correcao do dashboard ja commitada e modo presencial
+
+- O que falta: removido o item de commitar o config (ja feito no commit
+  anterior) e o video do YouTube (seminario e presencial, so a defesa oral)
+- Observacoes: anotado que a correcao do Evidence 40 ja esta no GitHub e
+  ajustada a descricao do .gitignore (connection.yaml agora e versionado)
