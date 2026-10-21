@@ -4,3 +4,9 @@ project:
 
 pages: ./pages
 sources: ./sources
+
+plugins:
+  components:
+    "@evidence-dev/core-components": {}
+  datasources:
+    "@evidence-dev/sqlite": {}

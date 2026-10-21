@@ -1,0 +1,4 @@
+name: data_evidence_analitics
+type: sqlite
+options:
+  filename: script.sqlite
