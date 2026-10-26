@@ -8,8 +8,11 @@
     "sources": "evidence sources"
   },
   "dependencies": {
-    "@evidence-dev/evidence": "latest",
-    "@evidence-dev/core-components": "latest",
-    "@evidence-dev/sqlite": "latest"
+    "@evidence-dev/evidence": "40.1.8",
+    "@evidence-dev/core-components": "5.4.2",
+    "@evidence-dev/sqlite": "2.0.9"
+  },
+  "devDependencies": {
+    "typescript": "5.4.2"
   }
 }

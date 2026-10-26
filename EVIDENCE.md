@@ -26,3 +26,19 @@ evidence dev
 ```
 
 O serviço deve iniciar na porta 3000 ou melhor: http://localhost:3000
+
+# Rodar com Docker (qualquer sistema)
+
+Não precisa de Node nem de toolchain instalados, só do Docker. Na raiz do repositório:
+```
+docker compose up --build
+```
+
+Abre em http://localhost:3000. O container roda `evidence sources` e `evidence dev` sozinho a cada start.
+
+- As pastas `my-dashboard/pages` e `my-dashboard/sources` são montadas no container: editar uma página atualiza o navegador na hora.
+- Se o `.sqlite` mudar, reinicie o container (`docker compose restart`) para reavaliar os dados.
+- Para parar: `Ctrl+C` ou `docker compose down`.
+
+> As versões do Evidence estão fixadas no `package.json` (40.1.8) para o Docker
+> instalar exatamente o que foi testado. Não troque por `latest`.

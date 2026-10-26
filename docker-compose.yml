@@ -1,0 +1,11 @@
+services:
+  dashboard:
+    build: ./my-dashboard
+    container_name: evidence-dashboard
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./my-dashboard/pages:/app/pages
+      - ./my-dashboard/sources:/app/sources
+    environment:
+      - CHOKIDAR_USEPOLLING=true
