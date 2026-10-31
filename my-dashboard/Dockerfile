@@ -9,11 +9,11 @@ RUN apt-get update \
 WORKDIR /app
 
 COPY package.json package-lock.json .npmrc ./
-RUN npm ci
+RUN npm install
 
 COPY . .
 
 EXPOSE 3000
 
 # Avalia o banco SQLite a cada start e sobe o servidor
-CMD ["sh", "-c", "npx evidence sources && npx evidence dev -- --host 0.0.0.0 --port 3000 --open false"]
+CMD ["sh", "-c", "npm run sources && npm run dev"]

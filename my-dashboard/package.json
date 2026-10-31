@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "evidence dev",
+    "dev": "evidence dev --host 0.0.0.0 --port 3000",
     "build": "evidence build",
     "sources": "evidence sources"
   },
@@ -14,5 +14,8 @@
   },
   "devDependencies": {
     "typescript": "5.4.2"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "*"
   }
 }
