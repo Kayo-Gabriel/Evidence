@@ -18,7 +18,7 @@ Prazo: 18/11/2026 · Vale 15 pontos · Grupo de 4 (Kayo, Ruan, Gabriel, Pedro)
 
 - [ ] Colocar prints da demonstração no slide 6 ("Evidence em uso") — o dashboard já roda, é só capturar
 - [ ] (Opcional) Criar mais 1 ou 2 páginas de relatório usando as outras categorias do banco (dispositivos, tamanho do público, taxa de crescimento), pra deixar a demo mais completa
-- [ ] Defesa oral (seminário presencial)
+- [ ] Estruturar falas dos apresentantes
 
 ## Checklist do seminário (o que o enunciado pede x o que os slides têm)
 
@@ -40,7 +40,7 @@ npx evidence sources   # avalia o banco SQLite e gera os dados (rodar de novo se
 npx evidence dev
 ```
 
-Sobe em `http://localhost:3000` — a página "Usuarios Ativos Por Mês" é a demo.
+Sobe em `http://localhost:3000` — a página "Usuarios Ativos Por Mês" é a demonstração, enquanto a ``.
 
 ## Observações
 
