@@ -12,7 +12,7 @@ Prazo: 18/11/2026 · Vale 15 pontos · Grupo de 4 (Kayo, Ruan, Gabriel, Pedro)
 - Página de relatório testada e renderizando: "Usuários ativos por mês" (gráfico de barras por categoria)
 - Instruções de início no `EVIDENCE.md`
 - Repositório conectado ao GitHub (`Kayo-Gabriel/Evidence`)
-- [x] .pptx enviado no AVA
+- Arquivo .pptx enviado no AVA
 
 ## O que falta
 
@@ -40,7 +40,7 @@ npx evidence sources   # avalia o banco SQLite e gera os dados (rodar de novo se
 npx evidence dev
 ```
 
-Sobe em `http://localhost:3000` — a página "Usuarios Ativos Por Mês" é a demonstração, enquanto a ``.
+Sobe em `http://localhost:3000` — a página "Usuarios Ativos Por Mês" é a demonstração.
 
 ## Observações
 
